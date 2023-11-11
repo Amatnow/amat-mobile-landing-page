@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["DTG67AR9Q4.com.amatnow.app.amatnow"],
+        "components": [
+          {
+            "/": "/store/*",
+            "comment": "Matches any URL whose path starts with /store/"
+          }
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": ["DTG67AR9Q4.com.amatnow.app.amatnow"]
+  },
+  "webcredentials": {
+    "apps": ["DTG67AR9Q4.com.amatnow.app.amatnow"]
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#D93621">
+  <meta name="description" content="AmatNow App">
+  <meta name="apple-itunes-app" content="app-id=DTG67AR9Q4" />
+  <link rel="icon" href="./images/favicon.ico">
+  <link rel="apple-touch-icon" href="./assets/images/logo192x192.png">
+  <title>Download AmatNow</title>
+  <style>
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-SemiBold.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "Poppins";
+      src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-size: cover;
+      overflow-x: hidden;
+    }
+
+    .amatNow-heading {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.75rem;
+      line-height: 130%;
+      text-align: center;
+      letter-spacing: -0.41px;
+      color: #111111;
+      margin: 3.8rem 2.3rem 1.5rem 2.3rem;
+    }
+
+    .amatNow-logo {
+      margin: 1.5rem 8.56rem 0rem 8.56rem;
+    }
+
+    .amatNow-container {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-flow: column nowrap;
+      margin: auto;
+    }
+
+    .amatNow-download-buttons>* {
+      padding: 0 0.6rem;
+    }
+
+    .amatNow-mobile-preview {
+      margin: 4rem 2.4rem 0 2.4rem;
+    }
+
+    @media (max-width:768px) {
+      .amatNow-mobile-preview img {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="amatNow-container">
+    <div class="amatNow-logo">
+      <img height="100" src="./images/logo.svg" alt="amatnow_logo">
+    </div>
+    <h3 class="amatNow-heading">
+      Download AmatNow app
+    </h3>
+    <div class="amatNow-download-buttons">
+      <input type="image" src="./images/google_play.svg" name="google_app" alt="google_app"
+        onclick="window.open('https://play.google.com/store/apps/details?id=com.amatnow.app.amatnow&hl=en&gl=US')">
+      <input type="image" src="./images/apple_store.svg" name="apple_app" alt="apple_app"
+        onclick="window.open('https://apps.apple.com/ng/app/amatnow/id1602920651')">
+    </div>
+    <div class="amatNow-mobile-preview">
+      <img height="500" src="./images/hero-image2.jpg" alt="mobile-preview">
+    </div>
+  </div>
+</body>
+
+</html>
