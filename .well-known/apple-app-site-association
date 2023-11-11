@@ -9,7 +9,11 @@
             "comment": "Matches any URL whose path starts with /store/"
           }
         ]
-      }
+      },       
+       {
+        "appID": "DTG67AR9Q4.com.amatnow.app.amatnow",
+        "paths": [ "/store/*"]
+    }
     ]
   },
   "activitycontinuation": {
